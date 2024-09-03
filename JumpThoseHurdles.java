@@ -2,9 +2,10 @@ import kareltherobot.*;
 
 public class JumpThoseHurdles {
   // Find the hurdle with the max height!!
-	// This is the Robot we will use to jump the hurdles
-  // hurdler.frontIsClear() determines if it can take a step
-	Robot hurdler = new Robot(1,1,Directions.East, 0);
+  // This is the Robot we will use to jump the hurdles
+  
+	Robot hurdler = new Robot(1,1,Directions.East, 0); // What is different about the 
+													//	location of this line of code?
 	
 	public static void main(String[] args) {
 		new JumpThoseHurdles().start();
@@ -13,10 +14,10 @@ public class JumpThoseHurdles {
 	public void start() {
 		loadWorld();
 		
-		int w = 0; //variable to tell us how many walls we've found
-    	int h = 0; //variable to tell us the highest hurlde we cleared.
+		int w = 0; //Identify what this variable might be for
+    	int h = 0; 
 
-		w = findHurdle(); //used to set  w to the number of hurdlers we've found
+		w = findHurdle(); 
 		h = findHurdle();
   
     
@@ -51,7 +52,6 @@ public class JumpThoseHurdles {
 	 * that the Robot has its back to the hurdle and is facing the next one.
 	 */
 	private void clearHurdle() {
-		// TODO Auto-generated method stub
 		
 	}
 
