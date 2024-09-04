@@ -14,11 +14,11 @@ public class JumpThoseHurdles {
 	public void start() {
 		loadWorld();
 		
-		int w = 0; //Identify what this variable might be for
-    	int h = 0; 
+		int w = 0; //This creates a variable to save your width
+    	int h = 0; //This creates a variable to save your height.
 
-		w = findHurdle(); 
-		h = findHurdle();
+		w = findHurdle(); //Discuss with your partner what this line of code is intended to do.
+		h = climbHurdle();
   
     
 		clearHurdle();
