@@ -58,7 +58,7 @@ public class JumpThoseHurdles {
 	private void loadWorld() {
 		// line below "hardcodes" this to use one specific world
 		// it would be better to ask the user...
-		String worldName = "worldb.wld";
+		String worldName = "Worldb.wld";
 		World.readWorld(worldName);
 		World.setVisible(true);
 		World.setDelay(5);
